@@ -18,7 +18,8 @@
 		A70542641786B78B001BBB1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70542631786B78B001BBB1C /* Default-568h@2x.png */; };
 		A70542671786B78B001BBB1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70542661786B78B001BBB1C /* ViewController.m */; };
 		A705426A1786B78B001BBB1C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70542681786B78B001BBB1C /* ViewController_iPhone.xib */; };
-		A705426D1786B78B001BBB1C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A705426B1786B78B001BBB1C /* ViewController_iPad.xib */; };
+		A70542751786B835001BBB1C /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A70542741786B835001BBB1C /* CustomTableCell.m */; };
+		A70542771786B868001BBB1C /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70542761786B868001BBB1C /* CustomTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +39,9 @@
 		A70542651786B78B001BBB1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A70542661786B78B001BBB1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A70542691786B78B001BBB1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		A705426C1786B78B001BBB1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A70542731786B835001BBB1C /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		A70542741786B835001BBB1C /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		A70542761786B868001BBB1C /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +93,9 @@
 				A70542651786B78B001BBB1C /* ViewController.h */,
 				A70542661786B78B001BBB1C /* ViewController.m */,
 				A70542681786B78B001BBB1C /* ViewController_iPhone.xib */,
-				A705426B1786B78B001BBB1C /* ViewController_iPad.xib */,
+				A70542731786B835001BBB1C /* CustomTableCell.h */,
+				A70542741786B835001BBB1C /* CustomTableCell.m */,
+				A70542761786B868001BBB1C /* CustomTableCell.xib */,
 				A70542541786B78A001BBB1C /* Supporting Files */,
 			);
 			path = CustomTableViewCell;
@@ -166,7 +171,7 @@
 				A70542621786B78B001BBB1C /* Default@2x.png in Resources */,
 				A70542641786B78B001BBB1C /* Default-568h@2x.png in Resources */,
 				A705426A1786B78B001BBB1C /* ViewController_iPhone.xib in Resources */,
-				A705426D1786B78B001BBB1C /* ViewController_iPad.xib in Resources */,
+				A70542771786B868001BBB1C /* CustomTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +185,7 @@
 				A705425A1786B78A001BBB1C /* main.m in Sources */,
 				A705425E1786B78B001BBB1C /* AppDelegate.m in Sources */,
 				A70542671786B78B001BBB1C /* ViewController.m in Sources */,
+				A70542751786B835001BBB1C /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +206,6 @@
 				A70542691786B78B001BBB1C /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A705426B1786B78B001BBB1C /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A705426C1786B78B001BBB1C /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
